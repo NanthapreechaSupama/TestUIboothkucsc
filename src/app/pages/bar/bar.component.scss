@@ -1,0 +1,19 @@
+/* Navigation Tab Bar */
+.tab-bar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #007bff; /* Change the color as needed */
+  color: #ffffff;
+  padding: 12px 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tab {
+  cursor: pointer;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.tab:hover {
+  color: #ffdd57; /* Change the hover color as needed */
+}

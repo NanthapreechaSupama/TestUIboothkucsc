@@ -1,0 +1,47 @@
+<div class="booths-container">
+  <h2>รายละเอียดของโซน: {{ selectedZone }}</h2>
+  <div class="booths-list">
+    <div class="booth" *ngFor="let booth of booths">
+      <img [src]="booth.imageUrl" alt="{{ booth.name }}" class="booth-image" />
+      <h3>{{ booth.name }}</h3>
+      <p>{{ booth.description }}</p>
+    </div>
+      <!-- Zone Details Section -->
+      <div class="zone-details">
+        <div class="zone-detail" id="detail-a" (click)="1">
+          <img src="assets/plant.png" alt="พันธุ์พืช" class="zone-icon" />
+          <h3>บูธ 1 ดอกไม้</h3>
+          <label class="container">
+            <input check="check" type="checkbox">
+            <div class="checkmark"></div>
+          </label>
+        </div>
+        <div class="zone-detail" id="detail-b">
+          <img src="assets/food.png" alt="อาหารและเครื่องดื่ม" class="zone-icon" />
+          <h3>บูธ 2 ต้นไม้ยืนต้น</h3>
+          <label class="container">
+            <input check="check" type="checkbox">
+            <div class="checkmark"></div>
+          </label>
+        </div>
+        <div class="zone-detail" id="detail-C">
+          <img src="assets/clothes.png" alt="เสื้อผ้าและเครื่องใช้" class="zone-icon" />
+          <h3>บูธ 3 ผลไม้</h3>
+          <label class="container">
+            <input check="check" type="checkbox">
+            <div class="checkmark"></div>
+          </label>
+        </div>
+        <div class="zone-detail" id="detail-D">
+          <img src="assets/toys.png" alt="เครื่องเล่น" class="zone-icon" />
+          <h3>บูธ 4 ต้นไม้ประดับ</h3>
+          <label class="container">
+            <input check="check" type="checkbox">
+            <div class="checkmark"></div>
+          </label>
+        </div>
+    </div>
+  </div>
+</div>
+
+

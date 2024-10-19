@@ -82,3 +82,20 @@
     color: #333;
   }
   
+  .booth {
+    cursor: pointer; // Change cursor to pointer to indicate clickable item
+    transition: transform 0.2s; // Add a little animation effect
+  }
+  
+  .booth:hover {
+    transform: scale(1.05); // Scale up on hover
+  }
+  
+  .selected-booth-details {
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  

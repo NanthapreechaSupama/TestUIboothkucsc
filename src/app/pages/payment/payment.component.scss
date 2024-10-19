@@ -1,0 +1,19 @@
+.zone-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+  
+.zone-card {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+  
+.zone-card:hover {
+    background-color: #f0f0f0;
+}
+  
